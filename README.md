@@ -64,7 +64,10 @@ CORS
 /Repositories  → Camada de dados
 /Services      → Regras de negócio
 
-🛠️ Pré-requisitos
+---
+
+## 🛠️ Pré-requisitos
+
 <div align="center">
 
 ✅ .NET SDK 8
@@ -82,10 +85,10 @@ Visual Studio | VS Code | Rider
 git clone https://github.com/seu-usuario/todolist-api.git
 cd todolist-api
 
-📦 Restaurando Dependências
+## 📦 Restaurando Dependências
 dotnet restore
 
-🗄️ Banco de Dados (SQLite)
+## 🗄️ Banco de Dados (SQLite)
 
 Arquivo:
 gerenciador.db
@@ -94,16 +97,26 @@ Connection String:
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite("Data Source=gerenciador.db"));
-🧱 Criando o Banco de Dados
+
+---
+    
+## 🧱 Criando o Banco de Dados
+
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 
 Se não tiver EF Tool:
 
 dotnet tool install --global dotnet-ef
-▶️ Rodando o Projeto
+
+---
+
+## ▶️ Rodando o Projeto
 dotnet run
-🌐 URL da API
+
+---
+
+## 🌐 URL da API
 <div align="center">
 
 https://localhost:5001
