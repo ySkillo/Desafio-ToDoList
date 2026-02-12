@@ -32,6 +32,12 @@ Tudo via **endpoints RESTful**, com persistência em banco SQLite.
 
 ---
 
+<div align="center">
+  <img src="imgAPI.png" width="250">
+</div>
+
+---
+
 ## 🧱 Tecnologias Utilizadas
 
 <div align="center">
