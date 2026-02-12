@@ -168,7 +168,7 @@ Projeto desenvolvido para treinar backend moderno em .NET, aplicar boas prática
 👨‍💻 Autor
 <div align="center">
 
-Teteu
+ySkillo - Matheus Gomes
 💻 Desenvolvedor .NET
 🔥 Backend | APIs | Clean Architecture
 
