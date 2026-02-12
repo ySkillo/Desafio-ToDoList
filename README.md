@@ -58,12 +58,11 @@ CORS
 
 ## 📂 Estrutura do Projeto
 
-```text
 /Controllers   → Endpoints da API
 /Data          → DbContext e acesso ao banco
 /Models        → Entidades do domínio
 /Repositories  → Camada de dados
-/Services      → Regras de negócio 
+/Services      → Regras de negócio
 
 🛠️ Pré-requisitos
 <div align="center">
@@ -178,4 +177,4 @@ ySkillo - Matheus Gomes
 💻 Desenvolvedor .NET
 🔥 Backend | APIs | Clean Architecture
 
-</div> ```
+</div>
